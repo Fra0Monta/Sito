@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript"></script>
+  <style>
+.cyan-lighter-hover {
+  color: #00bcd4;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.cyan-lighter-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #22e6ff; }
+.white-lighter-hover {
+  color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.white-lighter-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: white; }
+
+.white-darker-hover {
+  color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.white-darker-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #d9d9d9; }
+ </style>
+ <style>
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+</style>
+</head>
+<body>
+  <!--NavBar-->
+<nav class="navbar navbar-light primary-color lighten-4 sticky-top">
+    <a class="navbar-brand" href="#">Mondo Neve</a>
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+          class="fas fa-bars fa-1x"></i></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="luoghi.html">Luoghi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sci.html">Sci</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="snow.html">Snow Board</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Carousel-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--Immagini-->
+  <!--Prima-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="luoghi.jpg"
+          alt="First slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Luoghi</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Seconda-->
+      <div class="view">
+        <img class="d-block w-100" src="sci.jpg"
+          alt="Second slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Sci</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Terza-->
+      <div class="view">
+        <img class="d-block w-100" src="snow.jpg"
+          alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Snow Board</h3>
+      </div>
+    </div>
+  </div>
+  <!--Comandi-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--Pannello1-->
+<div class="row text-center justify-content-center">
+    <div class="col-md-6 mb-4">
+        <div class="card mdb-color ">
+            <div class="card-body">
+                <h2 class="font-weight-bold cyan-lighter-hover mb-3">Luoghi</h2>
+                <p class="white-darker-hover">Sul nostro sito puoi trovare i migliri posti dove andare a sciare, in Italia!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Pannello2-->
+<div class="row text-center justify-content-center">
+    <div class="col-md-6 mb-4">
+        <div class="card mdb-color">
+            <div class="card-body">
+                <h2 class="font-weight-bold cyan-lighter-hover mb-3">Sci</h2>
+                <p class="white-darker-hover">Qui puoi trovare gli sci più adatta a te!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Pannello3-->
+<div class="row text-center justify-content-center">
+    <div class="col-md-6 mb-4">
+        <div class="card mdb-color">
+            <div class="card-body">
+                <h2 class="font-weight-bold cyan-lighter-hover mb-3">Snow Board</h2>
+                <p class="white-darker-hover">Qui puoi trovare la tavola da snow board più adatta a te!</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
